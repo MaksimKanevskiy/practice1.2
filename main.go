@@ -14,4 +14,7 @@ func main() {
 	fmt.Println(breathingPerYear)
 	fmt.Println(math.Ceil(breathingPerYear / fiftyYearOak))
 	fmt.Println(math.Ceil(breathingPerYear / twentyFiveYearPoplar))
+
+	var input string
+	fmt.Scanf("%v", &input)
 }
