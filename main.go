@@ -10,8 +10,8 @@ func main() {
 	var fiftyYearOak float64 = 20
 	var twentyFiveYearPoplar float64 = 32
 	var daysInYear float64 = 365
-	var breathingPerYear = humanBreathing * daysInYear
-	fmt.Println(breathingPerYear, math.Ceil(breathingPerYear/fiftyYearOak), math.Ceil(breathingPerYear/twentyFiveYearPoplar))
+	var breathingPerYear = math.Ceil(humanBreathing * daysInYear)
+	fmt.Println(breathingPerYear, math.Ceil(breathingPerYear/twentyFiveYearPoplar), math.Ceil(breathingPerYear/fiftyYearOak))
 
 	var input string
 	fmt.Scanf("%v", &input)
